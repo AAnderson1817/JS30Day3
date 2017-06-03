@@ -1,5 +1,5 @@
 :root {
-  --base:#ffc600;
+  --base:#22952b;
   --spacing: 10px;
   --blur: 10px;
 }
@@ -21,6 +21,7 @@ img{
   padding: var(--spacing);
   background: var(--base);
   filter: blur(var(--blur));
+  box-shadow: 5px 5px 18px 3px rgba(10,10,10,.8);
 }
 
 h1{
